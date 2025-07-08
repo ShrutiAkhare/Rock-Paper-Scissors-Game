@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <h1 class="game-title">
+        <span>R</span><span>o</span><span>c</span><span>k</span>
+        <span>&nbsp;</span>
+        <span>P</span><span>a</span><span>p</span><span>e</span><span>r</span>
+        <span>&nbsp;</span>
+        <span>S</span><span>c</span><span>i</span><span>s</span><span>s</span><span>o</span><span>r</span><span>s</span>
+    </h1>
+
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="./assets/images/rock1.png" />
+        </div>
+        <div class="choice" id="paper">
+            <img src="./assets/images/paper1.png" />
+        </div>
+        <div class="choice" id="scissors">
+            <img src="./assets/images/scissors1.png" />
+        </div>
+    </div>
+
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>Your Move</p>
+        </div>
+        <div class="score">
+            <p id="DigitalBrain-score">0</p>
+            <p>DigitalBrain</p>
+        </div>
+    </div>
+
+    <div class="msg-container">
+        <p id="msg">Time to play</p>
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
